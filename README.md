@@ -14,3 +14,9 @@ b. The url of: `“amqp://guest:guest@localhost:5672”` is the same as in the s
 Lampiran Running RabbitMQ
 
 ![Running RabbitMQ](images/image1.jpeg)
+
+Lampiran screen show console
+
+![Sending and processing event](images/image2.jpeg)
+
+Setelah Publisher di-run, Publisher akan mengirim data-data yang sudah di-*hard code* ke *message queue*. Kemudian, Subscriber akan menerima data ini dari *message queue* dan menampilkan pesannya di console seperti yang ada pada tampilan di atas.
